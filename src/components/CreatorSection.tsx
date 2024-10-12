@@ -7,7 +7,7 @@ import { creator } from '@/lib/courseData';
 
 const CreatorSection: React.FC = () => {
   return (
-    <section className="mb-20 bg-[#f9f8f6] p-8">
+    <section className="mb-16 bg-[#f9f8f6] p-8">
       <h2 className="text-3xl font-bold mb-8 text-center">Meet the Creator</h2>
       <div className="flex flex-col items-center max-w-2xl mx-auto">
         <Image

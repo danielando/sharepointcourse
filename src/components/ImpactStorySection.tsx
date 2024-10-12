@@ -4,7 +4,7 @@ import { impactStory } from '@/lib/courseData'
 
 export default function ImpactStorySection() {
   return (
-    <section className="w-full bg-[#1e1e1e] text-white py-20">
+    <section className="w-full bg-[#1e1e1e] text-white py-16">
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>

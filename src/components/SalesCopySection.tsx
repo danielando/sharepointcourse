@@ -6,7 +6,7 @@ import React from 'react'
 
 export default function SalesCopySection() {
   return (
-    <section className="mb-20 p-8">
+    <section className="mb-16 p-8">
       <h2 className="text-4xl font-bold mb-6 text-center">SharePoint Essentials: Powering Your Copilot-Driven Workplace</h2>
       <h3 className="text-2xl font-semibold mb-8 text-center">Master the Foundation of Modern Collaboration and Copilot Integration</h3>
       
@@ -32,7 +32,7 @@ export default function SalesCopySection() {
           ))}
         </div>
       </div>
-
+      <EmailForm />
       {/* ... rest of the component ... */}
     </section>
   )

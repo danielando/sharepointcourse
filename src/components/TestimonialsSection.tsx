@@ -7,8 +7,8 @@ import { renderStarRating } from '@/utils/renderStarRating'
 
 export default function TestimonialsSection() {
   return (
-    <section className="mb-20 bg-[#f9f8f6] p-8">
-      <h2 className="text-3xl font-bold mb-8 text-center">What Our Students Say</h2>
+    <section className="mb-16 bg-[#f9f8f6] p-8">
+      <h2 className="text-3xl font-bold mb-8 text-center">What they are saying</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {testimonials.map((testimonial, index) => (
           <Card key={index} className="h-full bg-[#f2efe9] shadow-none border-none">

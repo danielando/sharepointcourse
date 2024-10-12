@@ -23,7 +23,7 @@ export default function Home() {
           <CourseModulesSection />
         </div>
       </main>
-      <footer className="mt-20 py-8 bg-[#f2efe9]">
+      <footer className="mt-16 py-8 bg-[#f2efe9]">
         <div className="container mx-auto px-4 text-center">
           © 2024 SharePoint Mastery. All rights reserved.
         </div>
