@@ -281,7 +281,7 @@ export const creator: Creator = {
   name: "Daniel Anderson",
   role: "SharePoint Expert & Microsoft MVP",
   bio: "Daniel Anderson is a renowned SharePoint expert and Microsoft Most Valuable Professional (MVP). With over a decade of experience in SharePoint development and administration, Daniel has helped countless organizations optimize their SharePoint environments. His expertise and passion for teaching have made him a sought-after trainer in the Microsoft community.",
-  image: "/placeholder.svg",
+  image: "/daniel.png",
   socialLinks: {
     linkedin: "https://www.linkedin.com",
     twitter: "https://www.twitter.com"
