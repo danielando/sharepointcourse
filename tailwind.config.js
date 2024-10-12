@@ -1,4 +1,3 @@
-// File: tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,8 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        // You can add custom colors here
+      fontFamily: {
+        outfit: ['var(--font-outfit)'],
+        roboto: ['var(--font-roboto)'],
       },
     },
   },
