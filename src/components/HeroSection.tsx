@@ -1,6 +1,7 @@
 // File: src/components/HeroSection.tsx
 'use client'
 import EmailForm from './EmailForm'
+import OptInComponent from './OptInComponent'
 
 export default function HeroSection() {
   return (
@@ -13,7 +14,9 @@ export default function HeroSection() {
           Nothing works without SharePoint. In today's Copilot landscape, it's more important than ever to have a foundation in SharePoint. This course is designed to transform your skills, your career, and your workplace.
         </p>
         <div className="max-w-4xl mx-auto">
-          <EmailForm />
+         
+          <OptInComponent />
+
         </div>
       </div>
     </section>

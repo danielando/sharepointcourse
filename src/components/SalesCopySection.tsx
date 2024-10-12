@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import EmailForm from './EmailForm'
 import { whySharePointMatters } from '@/lib/courseData'
 import React from 'react'
+import OptInComponent from './OptInComponent'
 
 export default function SalesCopySection() {
   return (
@@ -32,7 +33,7 @@ export default function SalesCopySection() {
           ))}
         </div>
       </div>
-      <EmailForm />
+      <OptInComponent />
       {/* ... rest of the component ... */}
     </section>
   )

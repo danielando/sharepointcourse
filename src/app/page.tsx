@@ -7,6 +7,7 @@ import WhatYoullGainSection from '@/components/WhatYoullGainSection'
 import ImpactStorySection from '@/components/ImpactStorySection'
 import CourseModulesSection from '@/components/CourseModulesSection'
 
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#f2efe9] text-[#1e1e1e] font-sans">
